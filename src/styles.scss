@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;500;600;700&display=swap');
 body {
+  width: 100%;
   background-color: #E5E5E5;
    display: grid;
    justify-content: center;
@@ -101,10 +102,16 @@ li{
 .hide{
   display: none;
 }
+.grid-container1 img{
+  border-radius: 60%;
+  border-bottom: 10px solid #EDF7FA;
+  ;
+}
+
 .JohnImage{
   height:243px;
   width:243px;
-  border-radius: 60%;
+  
 }
 .grid-container3{
   display: grid;
@@ -183,6 +190,18 @@ h5{
   grid-column-gap: 18px;
   background-color: #FFFFFF;
 
+}
+.grid-container4 img{
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}
+.grid-container4 h4{
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
 }
 hr {
   width: 858px;
@@ -318,6 +337,13 @@ margin-left: 10px;
   justify-content: center;
  
 }
+.grid-container5 svg{
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+}
+
 .grid-item-17{
   //margin-left: 459px;
 }
@@ -359,6 +385,12 @@ margin-left: 10px;
   height:171px;
   width:171px;
   border-radius: 60%;
+}
+
+.grid-container1 img{
+  border-radius: 60%;
+  border-bottom: 10px solid #EDF7FA;
+  ;
 }
 
 .grid-container1{
@@ -488,6 +520,19 @@ h5{
   grid-row-gap: 17px;
   background-color: #FFFFFF;
 
+}
+
+.grid-container4 img{
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}
+.grid-container4 h4{
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
 }
 hr {
   width: 338px;
@@ -627,6 +672,12 @@ margin-left: 10px;
   background-color: #FFFFFF;
   justify-content: center;
  
+}
+.grid-container5 svg{
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+  }
 }
 .grid-item-17{
   //margin-left: 459px;
